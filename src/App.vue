@@ -1,18 +1,17 @@
-<script lang="ts" setup>
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
+<script lang="ts" setup></script>
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+	<div class="text-center">
+		<img alt="Vue logo" src="@/assets/logo.png" />
+	</div>
 </template>
 
 <style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+	// @import "./base.less";
+	html,
+	body,
+	#app {
+		width: 100%;
+		height: 100%;
+		background-color: @dp-bg;
+	}
 </style>
