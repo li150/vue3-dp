@@ -41,7 +41,7 @@
     "preview/**/*.ts",
     "preview/**/*.d.ts",
     "preview/**/*.tsx",
-    "preview/**/*.vue"
+    "preview/**/*.vue",
   ],
   "exclude": ["node_modules", "dist"]
 }

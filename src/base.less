@@ -3,3 +3,57 @@
 @dp-font-xl: 1.25rem;
 // 背景颜色
 @dp-bg: #060f25;
+@baseColor-1: #50d2fd;
+
+// 通用样式
+
+.base-position-w {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.base-container {
+    position: absolute;
+    .base-position-w();
+    padding: 34px;
+}
+.title {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+// 使用边框背景
+.baseWidth-1 {
+    width: 500px;
+    height: 460px;
+    border: 75px solid transparent;
+    border-left: 223px solid;
+    border-right: 76px solid;
+    border-image-source: url("assets/images/border.png");
+    border-image-slice: 74 84 65 255 fill;
+    border-image-repeat: round;
+}
+.baseWidth-center {
+    width: 826px;
+    height: 938px;
+    border: 75px solid transparent;
+    border-left: 223px solid;
+    border-right: 76px solid;
+    border-image-source: url("assets/images/borderc.png");
+    border-image-slice: 74 84 65 255 fill;
+    border-image-repeat: round;
+}
+// 使用背景图
+.baseWidth-2 {
+    width: 500px;
+    height: 460px;
+    background-image: url("assets/images/border.png");
+    background-repeat: no-repeat;
+}
+.baseWidth-center-1 {
+    width: 826px;
+    height: 938px;
+    background-image: url("assets/images/borderc.png");
+    background-repeat: no-repeat;
+}
